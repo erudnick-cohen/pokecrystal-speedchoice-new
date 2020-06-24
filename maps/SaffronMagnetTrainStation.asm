@@ -16,7 +16,7 @@ SaffronMagnetTrainStation_MapScripts:
 SaffronMagnetTrainStationOfficerScript:
 	faceplayer
 	opentext
-	checkitem PASS
+	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue .MagnetTrainToGoldenrod
 	checkpermaoptions EARLY_KANTO
 	iftrue .MagnetTrainToGoldenrod

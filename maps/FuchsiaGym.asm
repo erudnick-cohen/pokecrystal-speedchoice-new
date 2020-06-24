@@ -12,7 +12,7 @@ FuchsiaGym_MapScripts:
 	db 0 ; callbacks
 
 FuchsiaGymJanineScript:
-	checkevent EVENT_BEAT_JANINE
+	checkflag ENGINE_SOULBADGE
 	iftrue .FightDone
 	applymovement FUCHSIAGYM_JANINE, Movement_NinjaSpin
 	faceplayer

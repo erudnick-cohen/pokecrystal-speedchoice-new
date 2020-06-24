@@ -14,7 +14,7 @@ CeladonGym_MapScripts:
 CeladonGymErikaScript:
 	faceplayer
 	opentext
-	checkevent EVENT_BEAT_ERIKA
+	checkflag ENGINE_RAINBOWBADGE
 	iftrue .FightDone
 	writetext ErikaBeforeBattleText
 	waitbutton

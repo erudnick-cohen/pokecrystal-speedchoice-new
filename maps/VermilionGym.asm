@@ -13,7 +13,7 @@ VermilionGym_MapScripts:
 VermilionGymSurgeScript:
 	faceplayer
 	opentext
-	checkevent EVENT_BEAT_LTSURGE
+	checkflag ENGINE_THUNDERBADGE
 	iftrue .FightDone
 	writetext LtSurgeIntroText
 	waitbutton

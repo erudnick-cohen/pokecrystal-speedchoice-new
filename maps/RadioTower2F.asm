@@ -100,6 +100,8 @@ TrainerGruntF2:
 Buena:
 	faceplayer
 	opentext
+	checkflag ENGINE_ROCKETS_IN_RADIO_TOWER
+	iftrue .MidRocketTakeover
 	checkevent EVENT_MET_BUENA
 	iffalse .Introduction
 	checkflag ENGINE_BUENAS_PASSWORD_2

@@ -54,13 +54,12 @@ CeruleanGym_MapScripts:
 	pause 15
 	turnobject PLAYER, DOWN
 	pause 15
-	clearevent EVENT_FOUND_MACHINE_PART_IN_CERULEAN_GYM
 	end
 
 CeruleanGymMistyScript:
 	faceplayer
 	opentext
-	checkevent EVENT_BEAT_MISTY
+	checkflag ENGINE_CASCADEBADGE
 	iftrue .FightDone
 	writetext MistyIntroText
 	waitbutton
